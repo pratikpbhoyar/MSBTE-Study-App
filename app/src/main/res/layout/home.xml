@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CO Department"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/sem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM I"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM II"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM III"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM IV"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM V"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/sem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEM VI"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
